@@ -1,0 +1,53 @@
+------ Página inicial
+- Deve conter 3 imagens
+- Os botões devem abrir um link do livro
+- Os links no final da página não precisam funcionar
+
+------ Contato
+- O link deve abrir o WhatsApp
+- Adicionar imagens como ícones (não usar os emotes do Windows)
+
+------ Entrar
+- Os campos devem ser validados
+
+------ Cadastrar
+- Os campos devem ser validados
+- Ao enviar o formulário, redirecionar para a página de confirmação de cadastro
+
+--------------------------
+Projeto lavagem chuteira
+- pacote de lavagens, anuais e mensais.
+- pagina de cadastro(dados e logo do time)/ quantidades de chuteiras para lavar
+- pagina de finalização de compra (orçamento/valor total do pedido)
+- Tipos de lavagens (3 tipos, simples, completa, premium)
+- 
+
+--------------------------
+Projeto posto
+
+- Nome:
+criado IA.
+1. PitAvalia
+Mistura de "Pit Stop" (parada rápida em corridas) + "Avalia" (avaliar).
+Conecta a ideia de parada rápida no posto com a função de avaliação.
+
+2. Postômetro
+Brincadeira com "posto" + sufixo "-ômetro", dando ideia de medição/avaliação.
+Tem um toque divertido e funcional, fácil de lembrar.
+
+3. Combustick
+Combinação de "combustível" + "critic" (crítico, em inglês).
+Dá ideia de quem avalia com critério os postos.
+
+4. Rodízio
+Nome que remete ao uso do carro (rodízio de pneus, rodízio de veículos) e pode simbolizar mobilidade e rotas.
+Pode ser usado como plataforma completa: avaliações, dicas, melhores rotas com postos confiáveis.
+
+🏁 5. CheckGas
+Mistura de "Check" (verificar) + "Gas" (gasolina, em inglês).
+Curto, direto e internacionalizado — ótimo para apps modernos.
+
+- Logomarca
+
+- 
+

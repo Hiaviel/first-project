@@ -1,0 +1,12 @@
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+body{
+    background-image: linear-gradient(to left top, #a81701, #b60024, #be0041, #c0005e, #bc007c, #a32b9d, #7a44b8, #2e57c9, #0069c2, #0071a8, #007387, #02726b);
+    background-size: 200px;
+    width: cover;
+    height: cover;
+}

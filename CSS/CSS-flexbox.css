@@ -1,0 +1,16 @@
+.move{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.listaflex{
+    display: flex;
+    gap: 10px;
+}
+
+.itensmenu{
+    display: flex;
+    align-items: center;
+}
