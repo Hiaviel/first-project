@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+body{
+    background-color: aqua;
+   
+}
+button{
+    width: 40px;
+    height: 20px;
+    alig
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    right: 
+    -ms-transform: translateY(-40%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(600%);
+    transform: translateX(600%);
+  }
+  <style>
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}

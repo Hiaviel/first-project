@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ArquivoBox</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #212121;
+      background-color: #F3E5F5;
+    }
+
+    header {
+      background-color: #6A1B9A;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      padding: 60px 40px;
+      background-color: #F3E5F5;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    .hero button {
+      padding: 12px 24px;
+      background-color: #8E24AA;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .features {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .features h3 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .feature-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #E1BEE7;
+      padding: 20px;
+      border-radius: 8px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .pricing {
+      padding: 40px 20px;
+      background-color: #F3E5F5;
+      text-align: center;
+    }
+
+    .pricing h3 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .plans {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .plan {
+      background-color: white;
+      border: 1px solid #E1BEE7;
+      padding: 20px;
+      border-radius: 8px;
+      width: 280px;
+      text-align: center;
+    }
+
+    .plan h4 {
+      margin-bottom: 10px;
+      color: #6A1B9A;
+    }
+
+    .plan ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .plan li {
+      margin: 10px 0;
+    }
+
+    .plan button {
+      padding: 10px 20px;
+      background-color: #CE93D8;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #6A1B9A;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>ArquivoBox</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Planos</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h2>Armazene e compartilhe seus arquivos com facilidade.</h2>
+      <p>Com o ArquivoBox, você tem espaço seguro e rápido para seus documentos, fotos, vídeos e muito mais.</p>
+      <button>Criar conta gratuita</button>
+    </div>
+    <!-- Você pode adicionar uma imagem aqui -->
+    <!-- <img src="seu-icone.png" alt="Ilustração de upload de arquivos" style="width: 300px;"> -->
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h3>Por que escolher o ArquivoBox?</h3>
+    <div class="feature-cards">
+      <div class="card">✅ 5 GB gratuitos</div>
+      <div class="card">⚡ Upload e download rápido</div>
+      <div class="card">🔒 Segurança e privacidade</div>
+      <div class="card">📱 Acesso em qualquer dispositivo</div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing">
+    <h3>Escolha o plano ideal para você</h3>
+    <  class="plans">
+      <!-- Plano Básico -->
+      <div class="plan">
+        <h4>Básico</h4>
+        <p><strong>Grátis</strong></p>
+        <ul>
+          <li>5 GB de espaço</li>
+          <li>Velocidade padrão</li>
+          <li>Sem suporte</li>
+          <li>Anúncios</li>
+        </ul>
+        <button>Assinar</button>
+      </div>
+
+      <!-- Plano Plus -->
+      <div class="plan">
+        <h4>Plus</h4>
+        <p><strong>R$19,90/mês</strong></p>
+        <ul>
+          <li>100 GB de espaço</li>
+          <li>Velocidade alta</li>
+          <li>Suporte por e-mail</li>
+          <li>Sem anúncios</li>
+        </ul>
+        <button>Assinar</button>
+      </div>
+
+      <!-- Plano Pro -->
+      <div class="plan">
+        <h4>Pro</h4>
+        <p><strong>R$49,90/mês</strong></p>
+        <ul>
+          <li>1 TB de espaço</li>
+          <li>Velocidade prioritária</li>
+          <li>Suporte exclusivo</li>
+          <li>Sem anúncios</li>
+        </ul>
+        <button>Assinar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 ArquivoBox. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>

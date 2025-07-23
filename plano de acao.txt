@@ -1,0 +1,18 @@
+
+
+
+Dica: Ofereça o anual com desconto para incentivar retenção. 
+
+🛠️ Como Funciona a Tecnologia (para você planejar o site):
+Front-end: Site com área de upload, login e dashboard de usuário
+Back-end: Sistema de autenticação e controle de planos
+Armazenamento: Use serviços como AWS S3, Firebase Storage, Google Cloud Storage ou até servidores com discos em nuvem
+Pagamento: Integração com Stripe, Mercado Pago, PagSeguro ou Hotmart
+Plataforma sugerida para começar: Hotmart, WordPress + plugins de membros, ou até uma solução customizada com Webflow + integrações
+🎯 
+Se quiser, posso te ajudar a montar:
+
+Um modelo de site (com textos e layout sugerido)
+Um pitch para investidores ou sócios
+Um plano de marketing inicial
+Um cronograma de lançamento

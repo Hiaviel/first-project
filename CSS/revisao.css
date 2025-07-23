@@ -55,11 +55,16 @@
     padding: 3px;
     font-size: 13px;
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .linkmenu a{
     text-decoration: none;
     margin-right: 15px;
     color: black;
+
 
 }
 .linkmenu a:hover{
@@ -97,14 +102,12 @@
     box-shadow: 0px 3px 2px #ccc;
     margin: 30px; 
     font-family: "Roboto", sans-serif;
-    display: flex;
-    align-items: center;
+
 }
 
 .produto-bloco{
     padding: 20px;
-    display: flex;
-    align-items: ;
+
 }
 
 .bloco-produto button{
@@ -123,11 +126,13 @@
     font-weight: 500;
     color: rgb(255, 255, 255);
     background-color: rgb(6, 78, 233);
-    width: 100%;
+    
+
 }
 
   .bloco-produto img{
     width: 100%;
+
 }
 
   /* titulo card */

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let tomate = parseFloat( prompt("digite o preço do tomato"))
+        
+        let pao
+        pao = prompt("digite o preço do pão")
+        pao = parseFloat(pao)
+    
+        let letche = prompt("Digite o preço do leite:")
+        letche = parseFloat(letche)
+        
+        alert ("Cardapio: \ntomate R$" + tomate + "\npão R$: " + pao + "\nleite R$:" + letche)
+        
+        let precocusto = tomate + pao + letche
+        
+        alert ("preço de custo: " + precocusto)
+        
+        let margem_lucro = 50
+        let preco_venda = precocusto + margem_lucro * precocusto /100 + preco_venda
+        
+        alert ("o preço de venda é: " + preco_venda)
+
+    </script>
+    
+</body>
+</html>

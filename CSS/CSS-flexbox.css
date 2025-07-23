@@ -1,7 +1,7 @@
 .move{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
 }
 
@@ -12,5 +12,5 @@
 
 .itensmenu{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
