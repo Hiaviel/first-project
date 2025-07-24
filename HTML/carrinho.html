@@ -8,7 +8,9 @@
 <body>
 
     <h1>carrinho de compra</h1>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray"></hrstyle>
     <p> Este e o carrinho de compra</p>
+    <p>Itens do carrinho: <span id="itensdocarrinho"></span></p>
     <button onclick="AdicionarCarrinho()">Adicionar ao carrinho</button>
     <button onclick="verCarrinho()">ver carrinho</button>
     <button onclick="removerCarrinho()">Remover</button>
@@ -18,25 +20,26 @@
 
         function AdicionarCarrinho(){
             carrinho = carrinho + 1
+            document.querySelector("#itensdocarrinho").innerHTML = carrinho
 
         }
 
         let carrinho = 0
 
         function verCarrinho(){
-            alert("itens no carrinho" + carrinho)
+            alert("Itens do carrinho: " + carrinho)
 
         }
 
         function removerCarrinho(){
             carrinho = carrinho -1
-
+            document.querySelector("#itensdocarrinho").innerHTML = carrinho
         }
 
         function limparCarrinho(){
             carrinho = 0
+            document.querySelector("#itensdocarrinho").innerHTML = carrinho
         }
-
 
 
             </script>
