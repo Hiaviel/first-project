@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrinho de compra</title>
+</head>
+<body>
+    <h1>Carrinho de compra</h1>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray"></hrstyle>
+    
+    <p>Arroz - R$ 15,90</p>
+    <button onclick="adicionarArroz()">Adicionar</button>
+    <button onclick="removerArroz()">remover</button>
+
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray"></hrstyle>
+
+    <p>Feijao - R$11,40</p>
+    <button onclick="adicionarFeijao()">Adicionar</button>
+    <button onclick="removerFeijao()">remover</button>
+    
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray"></hrstyle>
+    
+    <h2>seu carrinho</h2>
+    <button onclick="verCarrinho()">Ver carrinho</button>
+    <button onclick="limparCarrinho()">Limpar carrinho</button>
+
+    <script>
+
+        const arroz = 15.90
+        const feijao = 11.40
+        let qtdarroz = 0
+        let qtdfeijao = 0
+
+        
+        function adicionarArroz(){
+        qtdarroz = qtdarroz++
+            
+        }
+
+
+        
+                function verCarrinho(){
+                alert("Itens do carrinho " + carrinho)
+
+        }
+
+        function limparCarrinho(){
+            carrinho = 0
+        }
+
+        carrinho = qtdarroz
+
+    </script>
+
+</body>
+</html>

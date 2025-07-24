@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>carrinho de compra</h1>
+    <p> Este e o carrinho de compra</p>
+    <button onclick="AdicionarCarrinho()">Adicionar ao carrinho</button>
+    <button onclick="verCarrinho()">ver carrinho</button>
+    <button onclick="removerCarrinho()">Remover</button>
+    <button onclick="limparCarrinho()">Limpar</button>
+    
+            <script>
+
+        function AdicionarCarrinho(){
+            carrinho = carrinho + 1
+
+        }
+
+        let carrinho = 0
+
+        function verCarrinho(){
+            alert("itens no carrinho" + carrinho)
+
+        }
+
+        function removerCarrinho(){
+            carrinho = carrinho -1
+
+        }
+
+        function limparCarrinho(){
+            carrinho = 0
+        }
+
+
+
+            </script>
+    
+
+</body>
+</html>
